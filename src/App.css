@@ -1,14 +1,18 @@
+.title-page{
+   text-align: center;
+}
+
 .title {
-  text-align: left;
+  text-align: center;
   color: #95adbe;
 }
 
 .name {
-    text-align: left;
+    text-align: center;
     color: #95adbe;
 }
 
- body {
+body {
     background-color:#503a65;
  }
 
@@ -17,23 +21,23 @@
     color: #95adbe;
  }
 
- .experience-page {
+.experience-page {
     text-align: left;
     color: #95adbe;
  }
 
- .project-images {
+.project-images {
    flex-wrap: wrap;
    flex-direction: row;
    text-align: center;
  }
 
- .project-title {
+.project-title {
    text-align: right;
     color: #95adbe;
  }
 
- .contact-me-page {
+.contact-me-page {
    text-align: left;
     color: #95adbe;
  }
@@ -90,7 +94,7 @@
    right: 20px;
  }
  
- .top-btn-style {
+.top-btn-style {
    height: 40px;
    width: 40px;
    border-radius: 50%;
@@ -100,7 +104,7 @@
    cursor: pointer;
  }
  
- .top-btn-style:hover {
+.top-btn-style:hover {
    animation: none;
    background-color: #95adbe;
    color: #3c2a4d;
