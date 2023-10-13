@@ -48,65 +48,49 @@ body {
     
 }
 
-.about-me-button{
-   text-align: right;
-   color: #95adbe;
+* {
+   font-family: Optima, sans-serif;
 }
 
-.about-me-button:hover{
-   transition: 0.7s;
-   color:#3c2a4d;
-   cursor: pointer;
-}
-.experience-button{
-   text-align: right;
-   color: #95adbe;
-}
-
-.experience-button:hover{
-   transition: 0.7s;
-   color:#3c2a4d;
-   cursor: pointer;
-}
-.contact-button{
-   text-align: right;
-   color: #95adbe;
-}
-
-.contact-button:hover{
-   transition: 0.7s;
-   color:#3c2a4d;
-   cursor: pointer;
-}
-.projects-button{
-   text-align: right;
-   color: #95adbe;
-}
-
-.projects-button:hover{
-   transition: 0.7s;
-   color:#3c2a4d;
-   cursor: pointer;
-}
-.top-btn-position {
-   position: fixed;
-   bottom: 15px;
-   right: 20px;
+.navBar {
+   display: flex;
+   justify-content: space-between; /* To create space between name and links */
+   align-items: center; /* To vertically center the content */
+   background-color: #3c2a4d; /* Adjust background color as needed */
+   padding: 10px; /* Add some padding for spacing */
  }
  
-.top-btn-style {
-   height: 40px;
-   width: 40px;
-   border-radius: 50%;
-   border: 2px solid #95adbe;
-   background-color: #3c2a4d;
-   color: #95adbe;
-   cursor: pointer;
+ /* Style for the name */
+ .myNameBox {
+   flex: 1; /* Take up remaining space */
  }
  
-.top-btn-style:hover {
-   animation: none;
-   background-color: #95adbe;
-   color: #3c2a4d;
-   border: 2px solid #3c2a4d;
+ .myName {
+   color: #95adbe; /* Set the text color for the name */
+ }
+ 
+ /* Style for the navigation links */
+ .navLinksBox {
+   display: flex;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .navLinksBox > div {
+   margin-right: 10px; /* Adjust the spacing between links */
+ }
+ 
+ .navLinksBox a {
+   text-decoration: none;
+   color: #95adbe; /* Set the link text color */
+   background-color: transparent;
+ }
+ 
+ .navLinksBox > li {
+   margin-right: 20px; /* Adjust the spacing between links */
+ }
+ /* Style for active links (when the link is active) */
+ .navLinksBox a[aria-current="page"] {
+   background-color: #e0f0ea; /* Set the background color for active links */
  }
