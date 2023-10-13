@@ -1,12 +1,11 @@
 import './App.css'
 import {Route, Routes} from 'react-router-dom'
 import NavBar from './components/NavBar'
-import AboutMe from "./components/pages/AboutMe"
-import Experience from "./components/pages/Experience"
-import Projects from "./components/pages/Projects"
-import ContactMe from "./components/pages/ContactMe"
-import Home from "./components/pages/Home"
-
+import AboutMe from './components/pages/AboutMe'
+import Experience from './components/pages/Experience'
+import Projects from './components/pages/Projects'
+import ContactMe from './components/pages/ContactMe'
+import Home from './components/pages/Home'
 
 const App = () => {
   return (
